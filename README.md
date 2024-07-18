@@ -47,36 +47,6 @@ Copiar código
 GET http://localhost:8000/search/local/01001000,17560-246
 A API retornará um JSON com os dados de cada CEP consultado no formato especificado.
 
-Exemplo de Resposta
-json
-Copiar código
-[
-  {
-    "cep": "17560246",
-    "label": "Avenida Paulista, Vera Cruz",
-    "logradouro": "Avenida Paulista",
-    "complemento": "de 1600/1601 a 1698/1699",
-    "bairro": "CECAP",
-    "localidade": "Vera Cruz",
-    "uf": "SP",
-    "ibge": "3556602",
-    "gia": "7134",
-    "ddd": "14",
-    "siafi": "7235"
-  },
-  {
-    "cep": "01001000",
-    "label": "Praça da Sé, São Paulo",
-    "logradouro": "Praça da Sé",
-    "complemento": "lado ímpar",
-    "bairro": "Sé",
-    "localidade": "São Paulo",
-    "uf": "SP",
-    "ibge": "3550308",
-    "gia": "1004",
-    "ddd": "11",
-    "siafi": "7107"
-  }
-]
+
 ##Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias.
